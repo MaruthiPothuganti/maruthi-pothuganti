@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;1,700&display=swap');
 
 :root{
-    --primary-color:blue
+    --primary-color:indigo
+
     ;
 }
 body {
     font-family: 'Work Sans', sans-serif;
 }
 
+hr{
+    margin: 2srem 0rem;
+}
 /** container **/
 .container{
     padding-left: 1rem;
