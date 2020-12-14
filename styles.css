@@ -41,3 +41,11 @@ hr{
     (--primary-color);
     color: white;
 }
+
+.list-no-bullet{
+    list-style: none;
+}
+.list-inline-item{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
