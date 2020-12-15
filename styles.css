@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Enriqueta:wght@600&display=swap');
 :root{
     --primary-color:rgb(0, 82, 130);
     --off-white: #D1D5DB;
@@ -6,7 +6,7 @@
 
 }
 body {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Enriqueta', serif;
     margin: 0px;
 }
 
