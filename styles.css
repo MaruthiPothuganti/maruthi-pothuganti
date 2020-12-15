@@ -52,7 +52,34 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
+.navigation .nav-pills{
+    text-align: right;
 }
 .navigation .link{
     color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** header **/
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
 }
