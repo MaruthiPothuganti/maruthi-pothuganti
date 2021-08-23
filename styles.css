@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Enriqueta:wght@600&display=swap');
-:root{
-    --primary-color:rgb(0, 82, 130);
+:root {
+    --primary-color: rgb(0, 82, 130);
     --off-white: #D1D5DB;
     --dark-gray: #687280;
-
 }
+
 body {
     font-family: 'Enriqueta', serif;
     margin: 0px;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
+
+
 /** container **/
-.container{
+
+.container {
     padding: 0rem 1rem;
 }
 
@@ -23,83 +26,96 @@ hr{
     margin: auto;
 }
 
+
 /** links**/
-.link{
+
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-
 }
-.link-primary{
+
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
 
-.link-secondary{
+.link-secondary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var
-    (--primary-color);
+    border: 1px solid var (--primary-color);
     color: white;
 }
 
-.list-no-bullet{
+.list-no-bullet {
     list-style: none;
 }
-.list-inline-item{
+
+.list-inline-item {
     display: inline;
     padding: 0rem 0.5rem;
 }
-.navigation{
+
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-.navigation .nav-brand{
+
+.navigation .nav-brand {
     font-weight: bold;
 }
-.navigation .nav-pills{
+
+.navigation .nav-pills {
     text-align: right;
 }
-.navigation .link{
+
+.navigation .link {
     color: white;
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
 }
+
 
 /** header **/
 
-.hero{
+.hero {
     padding: 2rem;
     padding-top: 5rem;
 }
-.hero .hero-img{
+
+.hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
 }
-.hero .hero-heading{
+
+.hero .hero-heading {
     color: var(--dark-gray);
     padding-top: 1rem;
     text-align: center;
 }
-.hero .hero-heading .heading-inverted{
+
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
 
-.section{
+.section {
     padding: 2rem;
 }
-.section h1{
+
+.section h1 {
     text-align: center;
 }
+
 .ow {
     background-color: var(--off-white);
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem;
     text-align: center;
@@ -111,13 +127,11 @@ hr{
     color: black;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 }
 
-
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
-
 }
