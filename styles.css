@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Enriqueta:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew&display=swap');
 :root {
-    --primary-color: rgb(0, 82, 130);
+    --primary-color: #1F2937;
     --off-white: #D1D5DB;
     --dark-gray: #687280;
 }
 
 body {
-    font-family: 'Enriqueta', serif;
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
     margin: 0px;
 }
 
@@ -39,6 +39,10 @@ h1 {
     padding: 0.5rem 1rem;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -46,10 +50,21 @@ h1 {
 }
 
 .link-secondary {
-    background-color: var(--primary-color);
+    background-color: white;
     border-radius: 0.5rem;
-    border: 1px solid var (--primary-color);
+    border: 1px solid black;
+    color: black;
+}
+
+.link-primary:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.link-secondary:hover {
     color: white;
+    background-color: var(--primary-color);
 }
 
 .list-no-bullet {
@@ -129,7 +144,12 @@ h1 {
 }
 
 .footer .link {
-    color: black;
+    color: var(--dark-gray);
+}
+
+.footer .link:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .footer .footer-header {
