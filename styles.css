@@ -41,6 +41,7 @@ h1 {
 
 .link:hover {
     text-decoration: underline;
+    text-decoration: underline red 4px;
 }
 
 .link-primary {
@@ -149,7 +150,7 @@ h1 {
 
 .footer .link:hover {
     color: white;
-    text-decoration: underline;
+    text-decoration: underline red 4px;
 }
 
 .footer .footer-header {
