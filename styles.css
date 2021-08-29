@@ -24,6 +24,11 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    padding-top: 30px;
+}
+
+h1 {
+    margin-bottom: 5px;
 }
 
 
